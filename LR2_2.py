@@ -1,5 +1,5 @@
-enterfile = input("Enter the file name: ")
-file = open(enterfile, 'r')
+fileInput = input("Enter a file name: ")
+file = open(fileInput, 'r')
 lineCounter = 0
 
 for line in file:
