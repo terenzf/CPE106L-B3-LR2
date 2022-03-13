@@ -12,7 +12,7 @@ while True:
 
     num = int(input("Enter a line number (0 to quit): "))
     if num >=1 and num <= lineCounter:
-        file = open(enterfile, 'r')
+        file = open(fileInput, 'r')
         for lines in file:
             lineNumber = lineNumber + 1
             if lineNumber == num:
